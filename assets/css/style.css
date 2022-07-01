@@ -152,7 +152,7 @@ hr      {
                         float: right;
                         line-height: 20px;
                         clear: both;
-                        margin: 50px;
+                        margin-bottom: 50px;
 }
 
 .right-about-heading     {
@@ -160,7 +160,7 @@ hr      {
         float: left;
         line-height: 20px;
         clear: both;
-        margin: 50px;
+        margin-bottom: 50px;
 }
 
 
@@ -321,7 +321,6 @@ hr      {
         }
 
         #club-ethos     {
-                clear: both;
                 width: 90%;
                 height: 1200px;
                 margin: 0 auto;
@@ -340,5 +339,13 @@ hr      {
                 text-align: center;
                 padding: 0 20px;
         }
+        #photos {
+                column-count: 3;
+        }
  }
 
+ @media screen and (max-width: 800px)    {
+                        #photos  {
+                                column-count: 2;
+                         }
+ }
